@@ -78,7 +78,6 @@ export default class EqualGroupingScene extends Phaser.Scene {
     });
 
 
-    
     // reset button 
         const reset = this.add.image(
           0,
