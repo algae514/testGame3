@@ -1,5 +1,5 @@
 import Phaser from 'phaser';
-import StartScene from 'scenes/StartScene.js';
+import StartScene from 'src/scenes/StartScene.js';
 import GameScene from './scenes/GameScene.js';
 import EqualGroupingScene from './scenes/EqualGroupingScene.js';
 
