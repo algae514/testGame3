@@ -27,7 +27,7 @@ export default class EqualGroupingScene extends Phaser.Scene {
     this.load.image("particle", "assets/images/leaf1.png");
 
     this.load.audio('click', 'assets/sounds/click.wav');
-    this.load.audio('errorclick', 'assets/sounds/errorclick.wav');
+    // this.load.audio('errorclick', 'assets/sounds/errorclick.wav');
 
   }
 
@@ -108,9 +108,9 @@ export default class EqualGroupingScene extends Phaser.Scene {
       console.log(' cleed ')
 
       if(reset.input.enabled){
-        this.sound.play('click');
+        // this.sound.play('click');
       }else {
-        this.sound.play('errorclick');
+        // this.sound.play('errorclick');
       }
 
     });

@@ -1,7 +1,11 @@
 import Phaser from 'phaser';
-import StartScene from '/src/scenes/StartScene.js';
+import StartScene from './scenes/StartScene.js';
 import GameScene from './scenes/GameScene.js';
 import EqualGroupingScene from './scenes/EqualGroupingScene.js';
+import NumberlineGameScene from './scenes/NumberlineGameScene.js';
+import LevelCompleteScene from './scenes/LevelCompleteScene';
+import PreloadScene from './scenes/PreloadScene';
+import GameOverScene from './scenes/GameOverScene.js';
 
 
 const config = {
@@ -18,7 +22,7 @@ const config = {
   plugins: {
     global: [{ key: 'Tween', plugin: Phaser.Tweens.TweenPlugin, start: true }]
   },
-  scene: [StartScene, GameScene, EqualGroupingScene],
+  scene: [StartScene, GameScene, EqualGroupingScene, NumberlineGameScene, LevelCompleteScene, PreloadScene, GameOverScene],
 };
 
 const game = new Phaser.Game(config);
