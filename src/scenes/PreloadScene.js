@@ -23,7 +23,7 @@ class PreloadScene extends Phaser.Scene {
 
   create() {
     // Proceed to the Start Scene after loading assets
-    this.scene.start('NumberlineGameScene');
+    this.scene.start('StartScene');
   }
 }
 

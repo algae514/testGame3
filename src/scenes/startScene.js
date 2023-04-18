@@ -17,7 +17,7 @@ export default class StartScene extends Phaser.Scene {
 
   create() {
 
-    this.scene.start('NumberlineGameScene');
+    // this.scene.start('StartScene');
 
     // Add the background image
     const background = this.add.image(0, 0, 'background').setOrigin(0, 0);
